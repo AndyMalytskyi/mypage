@@ -51,14 +51,14 @@ header {
     margin-bottom: 5px;
     color: red;
 }
-footer a {
+#backpic a {
     background-color: #9acd32;
-    border-radius: 200px;
+    border-radius: 60px;
     margin-left: 65px;
     font-size: 15px;
-    display: inline;
-    vertical-align: 7px;
-    border: 2px solid black;
+    display: block;
+    width: 65px;
+    margin-top: 60px;
 }
     
 a {
@@ -71,7 +71,6 @@ a {
     padding: 5px;
     border: 2px solid black;
     font-weight: bold;
-    display: inline;
     vertical-align:-35px;
 }
 a:active {
@@ -83,5 +82,5 @@ footer {
     width: auto;
     font-size: 25px;
     margin-top: 30px;
-    height: 115px
+    height: 20px
 }
