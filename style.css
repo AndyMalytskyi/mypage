@@ -1,12 +1,12 @@
 body {
     background-image: url("images/green.jpg");
-    height: auto;
+    height: 730px;
 }
 header {
     color: #9acd32;
     text-align: center;
     height: 220px;
-    background-image: url("images/csshead.jp");
+    
     background-repeat: repeat;
     background-position: center;
     background-size: 100%;
@@ -51,29 +51,28 @@ header {
     margin-bottom: 5px;
     color: red;
 }
-.social {
+footer a {
     background-color: #9acd32;
     border-radius: 200px;
-    border-color: black;
-    height: 33px;
-    width: 110px;
-    margin-left: 80px;
-    margin-top: 10px;
+    margin-left: 65px;
     font-size: 15px;
-    display: block;
+    display: inline;
+    vertical-align: 7px;
+    border: 2px solid black;
 }
     
 a {
     color: black;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-right: 65px;
     text-decoration: none;
     font-size: 15px;
     background-color: #9acd32;
     border-radius: 5px;
-    padding: 3px;
+    padding: 5px;
     border: 2px solid black;
     font-weight: bold;
+    display: inline;
+    vertical-align:-35px;
 }
 a:active {
     color: #9acd32;
@@ -84,4 +83,5 @@ footer {
     width: auto;
     font-size: 25px;
     margin-top: 30px;
+    height: 115px
 }

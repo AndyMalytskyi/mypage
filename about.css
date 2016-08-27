@@ -6,7 +6,7 @@ header {
     color: #9acd32;
     text-align: center;
     height: 220px;
-    background-image: url("images/csshead.jp");
+    
     background-repeat: repeat;
     background-position: center;
     background-size: 100%;
@@ -27,7 +27,7 @@ header {
     margin: 0 auto;
     background-image: url("images/girl.jpg");
 }
-.bt
+#nav > a
 {
     background-color: #9acd32;
     font-weight: bold;
@@ -35,12 +35,12 @@ header {
     border-color: black;
     height: 33px;
     width: 110px;
-    margin-left: 100px;
+    margin-left: 170px;
     margin-top: 25px;
     font-size: 20px;
 }
-.righting {
-    float: right;
+.lefting {
+    float: left;
 }
 #about {
     width: 750px;
@@ -58,9 +58,10 @@ a {
     font-size: 15px;
     background-color: #9acd32;
     border-radius: 5px;
-    padding: 3px;
+    padding: 5px;
     border: 2px solid black;
     font-weight: bold;
+    vertical-align: -35px;
 }
 a:active {
     color: #9acd32;
