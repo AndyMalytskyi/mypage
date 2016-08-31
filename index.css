@@ -1,16 +1,18 @@
 body {
     background-image: url("images/green.jpg");
     height: 730px;
+    min-width: 550px;
 }
 header {
     color: #9acd32;
     text-align: center;
-    width: 1600px;
+    max-width: 1600px;
     background-repeat: repeat;
     background-position: center;
     background-size: 100%;
     font-size: 150px;
     font-family: Arial;
+    min-width: 550px;
 }
 #quote {
     color: #9acd32;
@@ -21,9 +23,10 @@ header {
 
 #nav {
     height: 100px;
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     background-image: url("images/girl.jpg");
+    min-width: 550px;
 }
 #nav > a
 {
@@ -36,6 +39,7 @@ header {
     margin-left: 100px;
     margin-top: 25px;
     font-size: 20px;
+    min-width: 550px;
 }
 
 #backpic {

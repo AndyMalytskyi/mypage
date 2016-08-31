@@ -1,16 +1,18 @@
 body {
     background-image: url("images/green.jpg");
     height: auto;
+    min-width: 650px;
 }
 header {
     color: #9acd32;
     text-align: center;
-    width: 1600px;
+    max-width: 1600px;
     background-repeat: repeat;
     background-position: center;
     background-size: 100%;
     font-size: 150px;
     font-family: Arial;
+    min-width: 650px;
 }
 #quote {
     color: #9acd32;
@@ -21,9 +23,10 @@ header {
 
 #nav {
     height: 100px;
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     background-image: url("images/girl.jpg");
+    min-width: 650px;
 }
 #nav > a
 {
@@ -36,15 +39,18 @@ header {
     margin-left: 170px;
     margin-top: 25px;
     font-size: 20px;
+    min-width: 650px;
 }
 .lefting {
     float: left;
 }
 #about {
-    width: 750px;
-    margin-left: 400px;
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
     color: #9acd32;
-    font-size: 30px
+    font-size: 30px;
+    min-width: 650px;
 }
 
     
@@ -60,6 +66,7 @@ a {
     border: 2px solid black;
     font-weight: bold;
     vertical-align: -35px;
+    min-width: 650px;
 }
 a:active {
     color: #9acd32;
