@@ -1,0 +1,71 @@
+body {
+    background-image: url("images/green.jpg");
+    height: 730px;
+    min-width: 550px;
+}
+header {
+    color: #9acd32;
+    text-align: center;
+    max-width: 1600px;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100%;
+    font-size: 150px;
+    font-family: Arial;
+    min-width: 550px;
+}
+#quote {
+    color: #9acd32;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+#nav {
+    height: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url("images/girl.jpg");
+    min-width: 550px;
+}
+#nav > a
+{
+    background-color: #9acd32;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: black;
+    height: 33px;
+    width: 110px;
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 20px;
+    min-width: 550px;
+}
+
+a {
+    color: black;
+    margin-right: 65px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #9acd32;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    font-weight: bold;
+    vertical-align:-25px;
+}
+a:active {
+    color: #9acd32;
+}
+footer {
+    color: #9acd32;
+    text-align: center;
+    width: auto;
+    font-size: 25px;
+    margin-top: 30px;
+    height: 20px
+}
+
+hr {
+    color: green;
+}
