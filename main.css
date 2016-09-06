@@ -7,7 +7,7 @@ header {
     color: #9acd32;
     text-align: center;
     max-width: 1600px;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     font-size: 150px;
