@@ -13,6 +13,7 @@ header {
     font-size: 150px;
     font-family: Arial;
     min-width: 550px;
+    margin: auto;
 }
 #quote {
     color: #9acd32;
