@@ -1,7 +1,7 @@
 body {
     background-image: url("images/green.jpg");
     height: 730px;
-    min-width: 550px;
+  
 }
 header {
     color: #9acd32;
@@ -12,7 +12,7 @@ header {
     background-size: 100%;
     font-size: 150px;
     font-family: Arial;
-    min-width: 550px;
+
     margin: auto;
 }
 #quote {
@@ -27,7 +27,7 @@ header {
     max-width: 1000px;
     margin: 0 auto;
     background-image: url("images/girl.jpg");
-    min-width: 550px;
+  
 }
 #nav > a
 {
@@ -40,12 +40,12 @@ header {
     margin-left: 100px;
     margin-top: 25px;
     font-size: 20px;
-    min-width: 550px;
+   
 }
 
 a {
     color: black;
-    margin-right: 65px;
+    margin-right: 50px;
     text-decoration: none;
     font-size: 15px;
     background-color: #9acd32;
@@ -55,9 +55,7 @@ a {
     font-weight: bold;
     vertical-align:-25px;
 }
-a:active {
-    color: #9acd32;
-}
+
 footer {
     color: #9acd32;
     text-align: center;
