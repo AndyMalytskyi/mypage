@@ -1,11 +1,13 @@
 body {
     background-image: url("images/green.jpg");
     height: auto;
+    max-width: 5000px;
+    min-width: 300px;
 }
 header {
     color: #9acd32;
     text-align: center;
-    min-width: 400px;
+    min-width: 300px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
