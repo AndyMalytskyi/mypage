@@ -53,6 +53,7 @@ a {
     border: 2px solid black;
     font-weight: bold;
     vertical-align:-25px;
+    z-index: 1;
 }
 
 footer {
