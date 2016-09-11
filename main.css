@@ -43,18 +43,31 @@ header {
     color: black;
     margin-right: 50px;
     text-decoration: none;
-    padding: 5px;
+    padding: 4px;
     border: 2px solid black;
     vertical-align: -25px;
 }  
 
-footer {
+h6 {
     color: #9acd32;
+    
+}
+
+#mpage {
+    text-decoration: none;
+    max-width: 100px;
+
+    text-align: center
+}
+
+footer {
+    margin: auto;
+    max-width: 310px;
     text-align: center;
-    width: auto;
+    margin-top: 20px;
     font-size: 25px;
-    margin-top: 30px;
-    height: 20px;
+    color: #9acd32;
+
 }
 
 hr {
